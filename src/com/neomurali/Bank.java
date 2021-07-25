@@ -69,22 +69,22 @@ public class Bank {
     public static void main(String[] args) {
         // ClassName objectName = new ClassName();
         Bank bank1 = new Bank();
-//        bank1.customerDetails("Murali");
-//        bank1.customerDetails("Ravi", "454, madhavan nage, Chennai");
-//        bank1.customerDetails("Ravi", "454, madhavan nage, Chennai", 35);
-//        bank1.customerDetails("Ravi", "454, madhavan nage, Chennai", 35, false);
+        bank1.customerDetails("Murali");
+        bank1.customerDetails("Ravi", "454, madhavan nage, Chennai");
+        bank1.customerDetails("Ravi", "454, madhavan nage, Chennai", 35, 50000);
+        bank1.customerDetails("Ravi", "454, madhavan nage, Chennai", 35, false);
 
 //        SBI sbiBank = new SBI();
 //        sbiBank.customerDetails("Murali", "Chennai", 25, 45000);
 
-        int result = bank1.addition(5, 6);
-        System.out.println("Result 1 = " + result);
-
-        int result2 = bank1.addition(4, result);
-        System.out.println("Result 2 = " + result2);
-
-        int result3 = bank1.addition(bank1.addition(12, 45), bank1.addition(58, 25));
-        System.out.println("Result 3 = " + result3);
+//        int result = bank1.addition(5, 6);
+//        System.out.println("Result 1 = " + result);
+//
+//        int result2 = bank1.addition(4, result);
+//        System.out.println("Result 2 = " + result2);
+//
+//        int result3 = bank1.addition(bank1.addition(12, 45), bank1.addition(58, 25));
+//        System.out.println("Result 3 = " + result3);
 
 
 
