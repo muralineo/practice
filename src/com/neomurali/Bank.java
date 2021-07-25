@@ -69,10 +69,14 @@ public class Bank {
     public static void main(String[] args) {
         // ClassName objectName = new ClassName();
         Bank bank1 = new Bank();
+        System.out.println("Method 1 - 1 argument ---------------------------------------------------------------");
         bank1.customerDetails("Murali");
-        bank1.customerDetails("Ravi", "454, madhavan nage, Chennai");
-        bank1.customerDetails("Ravi", "454, madhavan nage, Chennai", 35, 50000);
-        bank1.customerDetails("Ravi", "454, madhavan nage, Chennai", 35, false);
+        System.out.println("Method 2 - 2 arguments ---------------------------------------------------------------");
+        bank1.customerDetails("Ravi", "454, madhavan nagar, Chennai");
+        System.out.println("Method 3 - 4 arguments ---------------------------------------------------------------");
+        bank1.customerDetails("Ravi", "454, madhavan nagar, Chennai", 35, 50000);
+        System.out.println("Method 4 - 4 argumentssni ---------------------------------------------------------------");
+        bank1.customerDetails("Ravi", "454, madhavan nagar, Chennai", 35, false);
 
 //        SBI sbiBank = new SBI();
 //        sbiBank.customerDetails("Murali", "Chennai", 25, 45000);
